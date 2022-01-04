@@ -9,4 +9,6 @@ puts "----------"
 @store = Store.find_by(id: "2")
 
 @store1.update(name: "Cataraqui")
+
+# debug
 puts @store1.inspect
